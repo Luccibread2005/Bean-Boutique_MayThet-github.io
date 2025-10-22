@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bean Boutique - Home Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- nav bar -->
+  <header>
+
+    <div class="logo">Bean Boutique</div>
+    <nav class="menu">
+      <a href="index.html" class="active">Home Page</a>
+      <a href="selection.html">Coffee Selection</a>
+      <a href="equipment.html">Brewing Equipment</a>
+      <a href="events.html">Events and Workshops</a>
+      <a href="cart.html">Shopping Cart</a>
+      <a href="offers.html">Special Offers and Subscriptions</a>
+    </nav>
+  </header>
+  <!-- nav bar -->
+  <!-- slide -->
+  <main>
+
+    <section>
+      <h1>Welcome To Bean Boutique!!!</h1>
+      <p>Ready to make your first order, our dearly customers?</p>
+
+      <div class="slideshow">
+        <div class="slide"><img src="./slide1.jpg" alt="Coffee"></div>
+        <div class="slide"><img src="./slide2.jpg" alt="Coffee"></div>
+        <div class="slide"><img src="./slide3.jpg" alt="Coffee"></div>
+      </div>
+    </section>
+
+    <!-- slide -->
+  </main>
+  <!-- first modal pop up -->
+  <div id="discountModal" class="modal">
+    <div class="modal-content">
+      <span class="close">X</span>
+      <h2>Get 10% Off Your First Purchase!</h2>
+      <p>Sign up with your email to claim your discount.</p>
+      <input type="email" id="emailInput" placeholder="Enter your email">
+      <button id="claimDiscountBtn">Claim Discount</button>
+    </div>
+  </div>
+  <!-- first modal pop up -->
+  <!-- featuring -->
+  <section class="featuring">
+    <h2>Featuring our signature</h2>
+    <hr>
+    <div class="feature-card">
+      <img src="./homepg.jpg" alt="Featured Product">
+      <div class="feature-text">
+        <h5>Don't miss out on our trending French Press!!!</h5>
+        <a href="selection.html" class="btn">Order Now</a>
+      </div>
+    </div>
+    <hr>
+    <div class="feature-card reverse">
+      <img src="./stageperform.jpg" alt="Another Product">
+      <div class="feature-text">
+        <h5>Weekly cafe events!? Make sure you join ahead :3 </h5>
+        <a href="events.html" class="btn">Click to check for more</a>
+      </div>
+    </div>
+    <hr>
+    <div class="feature-card">
+      <img src="./MB.jpg" alt="Featured Product">
+      <div class="feature-text">
+        <h5>Planning to buy coffee equipments?</h5>
+        <a href="equipment.html" class="btn">Order Now</a>
+      </div>
+    </div>
+  </section>
+  <!-- featuring -->
+  <!-- map -->
+  <section>
+    <h2>Map of our Location</h2>
+    <hr>
+    <div class="container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.0043172855376!2d96.12772877461524!3d16.826141918731924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c194ca13fff6e3%3A0x1334ced7a53c5bbc!2sHledan%20Centre!5e0!3m2!1sen!2smm!4v1756458263095!5m2!1sen!2smm"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  <!-- map -->
+  <!-- footer -->
+  <footer>
+  <p>@ By Bean Boutique team | Made with love</p>
+  <div class="social-share">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://yourwebsite.com" target="_blank" class="share-btn fb">
+      Facebook
+    </a>
+    <a href="https://instagram.com/yourfakeaccount" target="_blank" class="share-btn ig">
+      Instagram
+    </a>
+  </div>
+</footer>
+  <!-- footer -->
+  <script src="script.js"></script>
+</body>
+</html>

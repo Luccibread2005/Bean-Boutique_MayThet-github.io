@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart - Bean Boutique</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+  <!-- nav bar -->
+
+  <header>
+
+    <div class="logo">Bean Boutique</div>
+    <nav class="menu">
+      <a href="index.html">Home Page</a>
+      <a href="selection.html">Coffee Selection</a>
+      <a href="equipment.html">Brewing Equipment</a>
+      <a href="events.html">Events and Workshops</a>
+      <a href="cart.html" class="active">Shopping Cart</a>
+      <a href="offers.html">Special Offers and Subscriptions</a>
+    </nav>
+  </header>
+  <!-- nav bar -->
+  <!-- cart -->
+  <section>
+    <div class="cart-container">
+      <h2>Your Shopping Cart</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="cart-body"></tbody>
+      </table>
+
+      <h3>Total: <span id="total">0</span> MMK</h3>
+
+      <div class="cart-actions">
+        <a href="selection.html">Back to Coffee Selection</a>
+        <a href="equipment.html">Back to Equipment Selection</a>
+        <button id="checkout-btn">Proceed to Checkout</button>
+        <button id="clear-cart-btn">Clear Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- cart -->
+  <!-- footer -->
+  <footer>
+  <p>@ By Bean Boutique team | Made with love</p>
+  <div class="social-share">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://yourwebsite.com" target="_blank" class="share-btn fb">
+      Facebook
+    </a>
+    <a href="https://instagram.com/yourfakeaccount" target="_blank" class="share-btn ig">
+      Instagram
+    </a>
+  </div>
+</footer>
+  <!-- footer -->
+  <script src="script.js"></script>
+</body>
+
+</html>
